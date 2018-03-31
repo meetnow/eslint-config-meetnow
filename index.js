@@ -1340,7 +1340,7 @@ module.exports = {
 
     'import/no-cycle': 'error',
 
-    'import/no-default-export': 'warn',
+    'import/no-default-export': 'off',
 
     'import/no-self-import': 'error',
 
