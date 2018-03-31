@@ -1,0 +1,39 @@
+{
+  "name": "eslint-config-meetnow",
+  "version": "1.0.0",
+  "description": "MeetNow's ESLint config, following our styleguide",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --report-unused-disable-directives .",
+    "prepublish": "eslint-find-rules --unused"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meetnow/eslint-config-meetnow"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "javascript",
+    "styleguide"
+  ],
+  "author": "Patrick Schneider <patrick.schneider@meetnow.eu>",
+  "license": "MIT",
+  "homepage": "https://github.com/meetnow/eslint-config-meetnow",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-find-rules": "^3.2.2",
+    "eslint-plugin-import": "^2.10.0"
+  },
+  "peerDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-plugin-import": "^2.10.0"
+  },
+  "engines": {
+    "node": ">= 6"
+  },
+  "dependencies": {
+    "eslint-restricted-globals": "^0.1.1"
+  }
+}
